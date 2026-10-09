@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Actividad-8</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">Welcome</string>
+    <string name="main_instructions">Enter your name, then tap Greet to see a message or Continue to open the next screen.</string>
+    <string name="name_hint">Your name</string>
+    <string name="button_greet">Greet</string>
+    <string name="button_continue">Continue</string>
+    <string name="error_empty_name">Please enter your name.</string>
+    <string name="greeting">Hello, %1$s! Nice to meet you.</string>
+
+    <!-- SecondActivity -->
+    <string name="second_title">Second screen</string>
+    <string name="second_label">Name received from the first screen:</string>
+    <string name="second_message">Welcome to the second activity, %1$s!</string>
+    <string name="button_back">Back</string>
 </resources>
