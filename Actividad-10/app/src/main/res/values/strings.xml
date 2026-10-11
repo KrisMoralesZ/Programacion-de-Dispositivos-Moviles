@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">Actividad-10</string>
+
+    <!-- Form -->
+    <string name="main_title">Contacts Manager</string>
+    <string name="mode_create">New contact: fill in the fields and tap Save.</string>
+    <string name="mode_edit">Editing \"%1$s\": change the fields and tap Update.</string>
+    <string name="hint_name">Name (required)</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_email">Email</string>
+    <string name="button_save">Save</string>
+    <string name="button_update">Update</string>
+    <string name="button_cancel">Cancel</string>
+
+    <!-- List -->
+    <string name="list_header">Saved contacts</string>
+    <string name="list_hint">Tap a contact to edit it, or the trash icon to delete it.</string>
+    <string name="empty_list">No contacts yet. Add your first one above.</string>
+    <string name="no_phone">No phone</string>
+    <string name="no_email">No email</string>
+    <string name="delete_contact_description">Delete %1$s</string>
+
+    <!-- Validation -->
+    <string name="error_name_required">Name is required.</string>
+    <string name="error_phone_invalid">Enter a valid phone number.</string>
+    <string name="error_email_invalid">Enter a valid email address.</string>
+
+    <!-- Results -->
+    <string name="contact_saved">Contact \"%1$s\" saved.</string>
+    <string name="contact_save_failed">Could not save the contact. Please try again.</string>
+    <string name="contact_updated">Contact \"%1$s\" updated.</string>
+    <string name="contact_update_failed">Could not update the contact. It may have been deleted.</string>
+    <string name="contact_deleted">Contact \"%1$s\" deleted.</string>
+    <string name="contact_delete_failed">Could not delete the contact. It may have already been removed.</string>
+
+    <!-- Delete dialog -->
+    <string name="delete_dialog_title">Delete contact?</string>
+    <string name="delete_dialog_message">\"%1$s\" will be permanently deleted. This cannot be undone.</string>
+    <string name="delete_dialog_confirm">Delete</string>
 </resources>
