@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Inventory Manager</string>
+    <string name="business_name">Abarrotes El Buen Precio</string>
+
+    <!-- Inventory list -->
+    <string name="empty_inventory">The inventory is empty.\nTap \"Add product\" to register the first product.</string>
+    <plurals name="product_count">
+        <item quantity="one">%d product registered · Tap a product for details</item>
+        <item quantity="other">%d products registered · Tap a product for details</item>
+    </plurals>
+    <string name="product_price">$%1$.2f</string>
+    <plurals name="product_stock">
+        <item quantity="one">Stock: %d unit</item>
+        <item quantity="other">Stock: %d units</item>
+    </plurals>
+    <string name="product_details">ID: %1$d\n\nDescription: %2$s\n\nPrice: $%3$.2f\nStock quantity: %4$d</string>
+    <string name="no_description">(no description)</string>
+
+    <!-- Actions -->
+    <string name="action_add_product">Add product</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_close">Close</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save product</string>
+    <string name="action_save_changes">Save changes</string>
+
+    <!-- Delete confirmation -->
+    <string name="delete_dialog_title">Delete product?</string>
+    <string name="delete_dialog_message">\"%1$s\" will be permanently removed from the inventory.</string>
+
+    <!-- Product form -->
+    <string name="title_add_product">Add product</string>
+    <string name="title_edit_product">Edit product</string>
+    <string name="hint_name">Product name *</string>
+    <string name="hint_description">Description (optional)</string>
+    <string name="hint_price">Price *</string>
+    <string name="hint_quantity">Stock quantity *</string>
+
+    <!-- Validation errors -->
+    <string name="error_name_required">Enter the product name</string>
+    <string name="error_name_too_long">The name is too long (maximum %1$d)</string>
+    <string name="error_description_too_long">The description is too long (maximum %1$d)</string>
+    <string name="error_price_required">Enter the price</string>
+    <string name="error_price_invalid">Enter a valid price, for example 12.50</string>
+    <string name="error_price_not_positive">The price must be greater than 0</string>
+    <string name="error_price_decimals">Use at most 2 decimal places</string>
+    <string name="error_price_too_large">The price cannot exceed %1$.2f</string>
+    <string name="error_quantity_required">Enter the stock quantity</string>
+    <string name="error_quantity_invalid">Enter a valid quantity</string>
+    <string name="error_quantity_negative">The quantity cannot be negative</string>
+    <string name="error_quantity_whole">The quantity must be a whole number</string>
+    <string name="error_quantity_too_large">The quantity cannot exceed %1$d</string>
+
+    <!-- Operation feedback -->
+    <string name="message_product_saved">Product saved</string>
+    <string name="message_product_updated">Product updated</string>
+    <string name="message_product_deleted">Product deleted</string>
+    <string name="message_fix_errors">Please correct the highlighted fields</string>
+    <string name="message_save_error">The product could not be saved. Please try again.</string>
+    <string name="message_delete_error">The product could not be deleted. It may have already been removed.</string>
+    <string name="message_load_error">The inventory could not be loaded</string>
+    <string name="message_product_not_found">The selected product no longer exists</string>
+</resources>
